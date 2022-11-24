@@ -1,10 +1,10 @@
 package com.syuan.t01;
 
-public interface Fish {
+public abstract class Fish {
 	
-	String FOOD_UNIT = "克";
-	int MAX_FOOD = 1;
+	public static final String FOOD_UNIT = "克";
+	public static final int MAX_FOOD = 1;
 	
-	void eat();
+	public abstract void eat();
 
 }

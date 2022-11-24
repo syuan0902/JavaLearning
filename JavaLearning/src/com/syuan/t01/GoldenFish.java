@@ -1,6 +1,6 @@
 package com.syuan.t01;
 
-public class GoldenFish implements Fish {
+public class GoldenFish extends Fish {
 
 	@Override
 	public void eat() {
