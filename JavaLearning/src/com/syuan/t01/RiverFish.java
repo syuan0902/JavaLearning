@@ -8,4 +8,14 @@ public class RiverFish extends Fish {
 		System.out.println("一次不能吃超過" + MAX_FOOD + FOOD_UNIT);
 	}
 
+	@Override
+	public void changColor() {
+		this.color = "藍色";
+	}
+
+	@Override
+	public void bubble() {
+		System.out.println("河魚吐中泡泡");		
+	}
+
 }

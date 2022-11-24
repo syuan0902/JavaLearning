@@ -7,4 +7,10 @@ public class RibbonFish extends SeaFish {
 		System.out.println("帶魚吃食物");
 	}
 
+	@Override
+	public void changColor() {
+		this.color = "銀白色";
+	}
+
+
 }

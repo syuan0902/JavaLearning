@@ -1,10 +1,14 @@
 package com.syuan.t01;
 
-public abstract class Fish {
+//一個類可以實作多個介面
+public abstract class Fish implements Food, Breath{
 	
-	public static final String FOOD_UNIT = "克";
-	public static final int MAX_FOOD = 1;
+	protected String color = "白色";
 	
-	public abstract void eat();
-
+	public abstract void changColor();
+	
+	
+	public void swim() {
+		System.out.println("魚會游泳");
+	}
 }
